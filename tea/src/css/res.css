@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('var.css');
+
+
+/*larguras*/
+@media screen and (max-width: 850px){
+    .othercont h1{
+        font-size: 2.5em;
+    }
+
+    .benef {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .benecont, .imcont {
+        width: 100%;
+    }
+
+    .benecont h2 {
+        font-size: 1.8em;
+    }
+
+    .benecont ul {
+        font-size: 1.2em;
+    }
+
+    .depocont {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px 20px 140px 20px ;
+    }
+
+    .depo {
+        width: 80%;
+        height: auto;
+        min-height: 200px;
+    }
+
+    .texdecont {
+        padding: 15px;
+    }
+
+    .texde {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .othercont h1{
+        font-size: 1.8em;
+    }
+
+    .compre{
+        padding: 8px 31px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .othercont h1{
+        font-size: 1.3em;
+    }
+
+    .benef {
+        min-height: auto;
+    }
+
+    .benecont h2 {
+        font-size: 1.5em;
+    }
+
+    .benecont ul {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+
+    .benecont ul li {
+        padding: 8px;
+    }
+
+    .depocont {
+        padding: 10px 10px 140px 10px ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .depo {
+        width: 80%;
+    }
+
+    .depimgcont2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .texde {
+        font-size: 1em;
+    }
+}
+
+/**/
+
+
+/*alturas*/
+
+@media screen and (max-height: 460px){
+    
+    .othercont{
+        gap: 15px;
+    }
+
+    #logo{
+        margin-top: 5px;
+        width: 80px;
+        height: 35px;
+    }
+}
+
+/**/
