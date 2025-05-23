@@ -8,6 +8,7 @@ import logo from '../assets/imagens/lemon-small.png';
 import kiana from '../assets/imagens/kiana.png';
 import kratos from '../assets/imagens/kratos.png';
 import zoro from '../assets/imagens/zoro.png';
+import tea from '../assets/imagens/tee.png'
 
 //svg
 import Lemon from "../svg/lemon"
@@ -29,7 +30,7 @@ function Inicio(){
         <main>
             <section className="benef">
                 <div className="benecont">
-                    <h2>Benefits of our Tea</h2>
+                    <h2>Benefits of Tea Zheltyy</h2>
 
                     <ul>
                         <li><Lemon/>It will give you the energy to start the day.</li>
@@ -42,7 +43,7 @@ function Inicio(){
 
                 <div className="imcont">
                    <div className="forecont">
-                       <div className="leafref"></div>
+                       <div className="leafref"><img id="leafimg" src={tea} alt="tea" /></div>
                        <Leaf/>
                    </div>
                 </div>

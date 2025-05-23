@@ -4,7 +4,24 @@
 
 
 /*larguras*/
+@media screen and (max-width: 1280px){
+    header{
+        background: var(--cor4) url('../assets/imagens/back1200.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center center;
+    }
+}
+
 @media screen and (max-width: 850px){
+
+    header{
+        background: var(--cor4) url('../assets/imagens/back800.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
     .othercont h1{
         font-size: 2.5em;
     }
@@ -50,6 +67,8 @@
 }
 
 @media screen and (max-width: 768px) {
+
+
     .othercont h1{
         font-size: 1.8em;
     }
@@ -59,7 +78,25 @@
     }
 }
 
+@media screen and (max-width: 580px){
+
+    header{
+        background: var(--cor4) url('../assets/imagens/back500.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}   
+
 @media screen and (max-width: 480px){
+
+    header{
+        background: var(--cor4) url('../assets/imagens/back400.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
     .othercont h1{
         font-size: 1.3em;
     }
