@@ -161,3 +161,111 @@
 }
 
 /**/
+
+/*telas grandes*/
+
+@media screen and (min-width: 1800px){
+     header{
+        background-image: url('../assets/imagens/backbig.png');
+        background-position: center center;
+        background-attachment:scroll;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .othercont h1 {
+        font-size: 4.5em;
+    }
+
+    .compre {
+        padding: 15px 50px;
+        font-size: 1.4em;
+    }
+
+    .benef {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 60px 40px;
+    }
+
+    .benecont h2 {
+        font-size: 2.8em;
+    }
+
+    .benecont ul {
+        font-size: 1.6em;
+    }
+
+    .depoconti {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+
+    .depoconti h2 {
+        font-size: 2.5em;
+    }
+
+    .depocont {
+        padding: 40px 20px 140px 20px;
+    }
+
+    .depo {
+        max-width: 500px;
+    }
+
+    .texde {
+        font-size: 1.5em;
+    }
+
+    .depimgcont2 {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+
+    .othercont h1 {
+        font-size: 5.5em;
+    }
+
+    .compre {
+        padding: 20px 60px;
+        font-size: 1.6em;
+    }
+
+    .benef {
+        max-width: 2400px;
+    }
+
+    .benecont h2 {
+        font-size: 3.2em;
+    }
+
+    .benecont ul {
+        font-size: 1.8em;
+    }
+
+    .depoconti {
+        max-width: 2400px;
+    }
+
+    .depoconti h2 {
+        font-size: 3em;
+    }
+
+    .depo {
+        max-width: 600px;
+    }
+
+    .texde {
+        font-size: 1.7em;
+    }
+
+    .depimgcont2 {
+        width: 140px;
+        height: 140px;
+    }
+}

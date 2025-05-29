@@ -121,6 +121,7 @@ main{
     align-items: center;
     padding: 40px 20px;
     gap: 30px;
+    margin: 0 auto;
 }
 
 .benecont{
@@ -197,6 +198,11 @@ main{
 
 /*//section depoi//*/
 
+.depoconti {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .depoconti h2{
     font-size: 1.9em;
     font-family: var(--fon3),sans-serif;
@@ -205,17 +211,17 @@ main{
     color: rgb(74, 158, 5);
 }
 
-.depocont{
+.depocont {
     display: flex;
     align-items: stretch;
-    justify-content: space-around;
-    padding: 20px 20px 140px 20px ;
-    gap: 20px;
+    justify-content: center;
+    padding: 20px 20px 140px 20px;
+    gap: 30px;
     flex-wrap: wrap;
-    width: 100%;
+    margin: 0 auto;
 }
 
-.depo{
+.depo {
     width: 30%;
     min-width: 280px;
     max-width: 400px;
